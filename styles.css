@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  /* background-color: lightblue; */
+  background-image: url("https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* background-repeat: repeat-x; */
+  background-attachment: fixed;
+  /* background-size: auto|length|cover|contain|initial|inherit; */
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #ffffff;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 100;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* Met font-weight kunnen we ook een range meegeven van 100 tem 900, 100 is superdun en 900 is supervet */
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+#speciaal {
+  font-style: italic;
+}
+
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #ef6a6a;
+}
+
+.gitbutton {
+  /* display:none; */
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+
+  /* padding: 15px 20px; bottom en left ook identiek */
+
+  /* identiek het zelfde
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    enkel een padding bottom willen,
+    padding-bottom: 10px; */
+
+  background-color: #f78154;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 20px;
+
+  width: 150px;
+  /* Center */
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+}
+
+.gitbutton:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.mobmenu {
+  display: block;
+  text-align: left;
+  width: 160px;
+  margin-left: 20px;
+}
+
+.mobilemenu {
+  display: none;
+  /* Mijn element vastpinnen en relatie met mijn venster */
+  position: fixed;
+  left: 10px;
+  top: 100px;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+.heading {
+  min-height: 450px;
+  width: 100%;
+  background-color: white;
+  background-image: url("https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.4);
+}
+
+.headingsub {
+  min-height: 700px;
+  width: 100%;
+
+  align-items: center;
+}
+
+.topbutton {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  color: white;
+}
+
+.stock {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.content {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+}
+
+i#myBtn {
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ed3a6c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
